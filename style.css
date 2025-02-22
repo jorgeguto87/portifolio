@@ -68,3 +68,42 @@ footer img{
 footer a{
     text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover; /* Mantém o fundo cobrindo a tela */
+        background-attachment: scroll; /* Evita problemas com imagens fixas em mobile */
+    }
+
+    .container {
+        display: flex; /* Em vez de grid, usa flex para facilitar o ajuste */
+        flex-direction: column; /* Alinha os itens em coluna */
+        align-items: center; /* Centraliza os itens */
+        text-align: center; /* Para alinhar os textos no centro */
+    }
+
+    .paragrafo, .imagem {
+        margin: 0; /* Remove as grandes margens */
+        width: 90%; /* Faz com que o conteúdo ocupe quase toda a largura */
+    }
+
+    main img {
+        max-width: 180px; /* Reduz um pouco o tamanho da imagem */
+    }
+
+    header h1 {
+        font-size: 32px; /* Diminui o tamanho do título */
+        margin-left: 0; /* Remove margem para evitar deslocamento */
+        text-align: center; /* Centraliza no celular */
+    }
+
+    main p {
+        font-size: 120%;
+        text-align: center; /* Centraliza os parágrafos */
+        margin-left: 0;
+    }
+
+    footer img {
+        max-width: 30px; /* Reduz tamanho do ícone no rodapé */
+        margin-left: 0;
+    }
+}

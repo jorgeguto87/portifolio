@@ -70,40 +70,40 @@ footer a{
 }
 @media screen and (max-width: 768px) {
     body {
-        background-size: cover; /* Mantém o fundo cobrindo a tela */
-        background-attachment: scroll; /* Evita problemas com imagens fixas em mobile */
+        background-size:auto; 
+        background-attachment: scroll; 
     }
 
     .container {
-        display: flex; /* Em vez de grid, usa flex para facilitar o ajuste */
-        flex-direction: column; /* Alinha os itens em coluna */
-        align-items: center; /* Centraliza os itens */
-        text-align: center; /* Para alinhar os textos no centro */
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
     }
 
     .paragrafo, .imagem {
-        margin: 0; /* Remove as grandes margens */
-        width: 90%; /* Faz com que o conteúdo ocupe quase toda a largura */
+        margin: 0; 
+        width: 90%; 
     }
 
     main img {
-        max-width: 180px; /* Reduz um pouco o tamanho da imagem */
+        max-width: 180px; 
     }
 
     header h1 {
-        font-size: 32px; /* Diminui o tamanho do título */
-        margin-left: 0; /* Remove margem para evitar deslocamento */
-        text-align: center; /* Centraliza no celular */
+        font-size: 32px; 
+        margin-left: 0; 
+        text-align: center; 
     }
 
     main p {
         font-size: 120%;
-        text-align: center; /* Centraliza os parágrafos */
+        text-align: justify; 
         margin-left: 0;
     }
 
     footer img {
-        max-width: 30px; /* Reduz tamanho do ícone no rodapé */
+        max-width: 30px; 
         margin-left: 0;
     }
 }

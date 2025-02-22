@@ -11,47 +11,6 @@ strong{
     color: #22D4FD;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-<<<<<<< HEAD
-.container{
-    display:grid;
-    grid-template-columns: auto auto;
-    gap: 5px;
-    padding: 5px;
-
-}
-.paragrafo{
-    grid-column: 1;
-    grid-row: 1;
-    grid-area: auto;
-    margin-right: 60px;   
-}
-.imagem{
-    grid-column: 2;
-    grid-row: 1;
-    grid-area: auto;
-    margin-left: 60px;
-}
-
-.container2{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px;
-    padding: 15px;
-    vertical-align: auto;
-}
-.instagram{
-    grid-column: 1;
-    grid-row: 1;
-}
-.github{
-    grid-column: 1;
-    grid-row: 2;
-}
-.linkedin{
-    grid-column: 1;
-    grid-row: 3;
-}
-
 main img{
     max-width: 240px;
     height: auto;
@@ -72,58 +31,18 @@ main p{
     text-align: justify;
 }
 main a{
-    padding:20px;
-=======
-main img{
-    float:none;
-    max-width: 360px;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 20px 20px 50px 15px #1e0e22;
-    margin-left: 750px;
-    margin-top: -330px;
-
-    
-}
-main h1{
-    max-width: 45%;
-    height: auto;
-    text-align: left;
-    font: 300% bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 5%;
-}
-main p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: 120% bold;
-    max-width: 45%;
-    height: auto;
-    margin-left: 5%;
-}
-main a{
     padding:6%;
->>>>>>> 9be4461 (first commit)
     border-style: hidden;
     background-color: #1e0e22;
     color: #F6F6F6;
 }
 footer img{
-<<<<<<< HEAD
-    max-width: 40px;
+    max-width: 6%;
     height: auto;
     padding: 5px;
     vertical-align: middle;
-    margin-left: 100px;
-}
-footer a{
-    text-decoration: none;
-}
-=======
-    max-width: 6%;
-    height: auto;
-    padding: 1%;
-    vertical-align: middle;
-    margin-left: 6%;
+    margin-left: 60px;
+    margin-top: 25px;
 }
 footer a{
     text-decoration: none;

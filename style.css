@@ -11,6 +11,7 @@ strong{
     color: #22D4FD;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+<<<<<<< HEAD
 .container{
     display:grid;
     grid-template-columns: auto auto;
@@ -72,11 +73,42 @@ main p{
 }
 main a{
     padding:20px;
+=======
+main img{
+    float:none;
+    max-width: 360px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 15px #1e0e22;
+    margin-left: 750px;
+    margin-top: -330px;
+
+    
+}
+main h1{
+    max-width: 45%;
+    height: auto;
+    text-align: left;
+    font: 300% bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+}
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 120% bold;
+    max-width: 45%;
+    height: auto;
+    margin-left: 5%;
+}
+main a{
+    padding:6%;
+>>>>>>> 9be4461 (first commit)
     border-style: hidden;
     background-color: #1e0e22;
     color: #F6F6F6;
 }
 footer img{
+<<<<<<< HEAD
     max-width: 40px;
     height: auto;
     padding: 5px;
@@ -86,3 +118,14 @@ footer img{
 footer a{
     text-decoration: none;
 }
+=======
+    max-width: 6%;
+    height: auto;
+    padding: 1%;
+    vertical-align: middle;
+    margin-left: 6%;
+}
+footer a{
+    text-decoration: none;
+}
+>>>>>>> 9be4461 (first commit)

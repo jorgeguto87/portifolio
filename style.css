@@ -11,6 +11,26 @@ strong{
     color: #22D4FD;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    padding: 5px;
+
+}
+.paragrafo{
+    grid-column: 1;
+    grid-row: 1;
+    grid-area: auto;
+    margin-right: 60px;   
+}
+.imagem{
+    grid-column: 2;
+    grid-row: 1;
+    grid-area: auto;
+    margin-left: 60px;
+}
+
 main img{
     max-width: 240px;
     height: auto;
@@ -31,13 +51,13 @@ main p{
     text-align: justify;
 }
 main a{
-    padding:6%;
+    padding:20px;
     border-style: hidden;
     background-color: #1e0e22;
     color: #F6F6F6;
 }
 footer img{
-    max-width: 6%;
+    max-width: 40px;
     height: auto;
     padding: 5px;
     vertical-align: middle;
@@ -47,4 +67,3 @@ footer img{
 footer a{
     text-decoration: none;
 }
->>>>>>> 9be4461 (first commit)

@@ -86,3 +86,13 @@ footer img{
 footer a{
     text-decoration: none;
 }
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Empilha os elementos no mobile */
+        text-align: center;
+    }
+
+    main img {
+        max-width: 80%;
+    }
+}

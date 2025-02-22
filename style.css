@@ -23,32 +23,32 @@ main img{
     
 }
 main h1{
-    max-width: 45%;
+    max-width: 580px;
     height: auto;
     text-align: left;
-    font: 300% bold;
+    font: 48px bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 5%;
+    margin-left: 60px;
 }
 main p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: 120% bold;
-    max-width: 45%;
+    font: 20px bold;
+    max-width: 580px;
     height: auto;
-    margin-left: 5%;
+    margin-left: 60px;
 }
 main a{
-    padding:6%;
+    padding:20px;
     border-style: hidden;
     background-color: #1e0e22;
     color: #F6F6F6;
 }
 footer img{
-    max-width: 6%;
+    max-width: 60px;
     height: auto;
-    padding: 1%;
+    padding: 5px;
     vertical-align: middle;
-    margin-left: 6%;
+    margin-left: 100px;
 }
 footer a{
     text-decoration: none;

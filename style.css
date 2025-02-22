@@ -11,16 +11,32 @@ strong{
     color: #22D4FD;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    padding: 5px;
+
+}
+.texto{
+    grid-column: 1 / span 2;
+}
+.imagem{
+    grid-column: 3 / span 2;
+}
+.paragrafo{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    margin-top: -19%;
+}
+
 main img{
-    float:none;
+    display: flex;
     max-width: 360px;
     height: auto;
     border-radius: 15px;
     box-shadow: 20px 20px 50px 15px #1e0e22;
-    margin-left: 750px;
-    margin-top: -330px;
-
-    
+        
 }
 main h1{
     max-width: 580px;
@@ -53,10 +69,3 @@ footer img{
 footer a{
     text-decoration: none;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-  
